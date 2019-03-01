@@ -1,0 +1,99 @@
+/* 
+Playfair Display
+400 = regular
+400i = regular italic
+700 = bold
+700i = bold italic
+900 = black
+900i = black italic
+ */
+
+ /* 
+  #303952 = navy
+  #f7d794 = yello highlight
+  #596275 = pencil lead (gray)
+ */
+
+html {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.wrapper {
+    width: 66vw;
+    height: 100%;
+    margin: auto;
+    background-color: #596275;
+    justify-content: center;
+}
+
+nav {
+    display: block;
+    width: inherit;
+    height: 50px;
+    background-color: #303952;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    padding-left: 18%;
+    padding-right: 18%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    color: #f7d794;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.spacer {
+    display: block;
+    width: 100%;
+    height: 50px;
+    z-index: 0;
+}
+
+#welcome-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    }
+
+.h1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 8rem;
+    baseline-shift: 5%;
+    color: #f7d794;
+}
